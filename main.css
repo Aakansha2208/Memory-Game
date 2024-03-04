@@ -1,0 +1,63 @@
+
+ /* Style for the heading */
+ h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Add margin at the bottom */
+    font-size: 58px; /* Increase font size */
+    color: #f5f3f2;
+}
+p {
+    font-size: 24px; /* Default font size */
+    color: #f5f3f2;
+}
+
+ /* Center the buttons horizontally and vertically */
+ body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items vertically */
+}
+
+
+
+
+/* Style for the buttons */
+.button {
+    background: #f5f3f2;
+    background: #121317;
+   
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    display: inline-block; /* Make it inline block */
+    margin: 4px 2px; /* Margin */
+    padding: 20px 40px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    font-size: 24px; /* Font size */
+    cursor: pointer; /* Cursor pointer */
+    border-radius: 10px; /* Border radius */
+    transition-duration: 0.4s; /* Transition duration */
+    
+}
+             .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure buttons are vertically centered */
+}
+/* Hover effect */
+.button:hover {
+    background-color: #6f81e9; /* Darker green background */
+}
+
+body {
+    display: flex;
+    
+    background: #f5f3f2;
+    background: #293150;
+  }
+
+ 

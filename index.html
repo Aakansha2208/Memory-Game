@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css " href="main.css"/> 
+    <title>Main Page</title>
+</head>
+<body>
+    <div>
+        <h1>Memory Game</h1>
+        <p> A memory game is a type of game where players need to match pairs of cards or tiles by flipping them over. Typically, the cards are laid out face down, and players take turns flipping two cards over at a time. If the cards match, they stay face up, and the player gets a point. If they don't match, they are flipped back face down, and it's the next player's turn. <br> The objective is to remember the positions of the cards and make as many matches as possible to earn points. The game can be played alone or with others, and it often requires concentration and quick thinking to win.</p>
+    </div>
+   
+    <div class="button-container">
+
+
+    <!-- Button for Easy -->
+    <button class="button" onclick="navigateToPage('easy.html')">Easy</button>
+
+    <!-- Button for Hard -->
+    <button class="button" onclick="navigateToPage('hard.html')">Hard</button>
+</div>
+    <script>
+        // Function to navigate to the specified page
+        function navigateToPage(page) {
+            // Redirect to the specified page
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
